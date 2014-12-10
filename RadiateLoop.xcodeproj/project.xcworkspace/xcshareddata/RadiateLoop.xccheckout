@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>83EAB30D-D70C-4678-9960-CCF8C27518A1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RadiateLoop</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>268BF45C59924AAACC66A564921D84F7327FA134</key>
+		<string>https://github.com/Artwalk/RadiateLoop.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RadiateLoop.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>268BF45C59924AAACC66A564921D84F7327FA134</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Artwalk/RadiateLoop.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>268BF45C59924AAACC66A564921D84F7327FA134</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>268BF45C59924AAACC66A564921D84F7327FA134</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RadiateLoop</string>
+		</dict>
+	</array>
+</dict>
+</plist>
