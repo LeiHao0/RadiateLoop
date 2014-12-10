@@ -21,22 +21,23 @@ class View: UIView {
         // Drawing code
         let center = Center(x: self.frame.width/2, y: self.frame.height/2)
         
-        for i in 1...360 {
+        // d is degree, the increment is 2.5°
+        for var d:CGFloat = 0.0; d < 360.0; d += 2.5 {
             // set diff color
-            let b = i > 120 && i < 200 || i > 240 && i < 350
+            let b = d > 120 && d < 200 || d > 240 && d < 350
             let color = b ? UIColor.greenColor() : UIColor.lightGrayColor()
-            drawLine(i, color:color, c: center)
+            drawLine(d, color:color, c: center)
         }
     }
     
-    func drawLine(i:Int, color:UIColor , c:Center) {
+    func drawLine(d:CGFloat, color:UIColor , c:Center) {
         //// General Declarations
         let context = UIGraphicsGetCurrentContext()
         
         //// Bezier Drawing
         CGContextSaveGState(context)
         CGContextTranslateCTM(context, c.x, c.y)
-        CGContextRotateCTM(context, CGFloat(i) * CGFloat(M_PI) / 180)
+        CGContextRotateCTM(context, d * CGFloat(M_PI) / 180)
         
         var bezierPath = UIBezierPath()
         bezierPath.moveToPoint(CGPointMake(0, c.y))
